@@ -47,7 +47,7 @@ body {
 	height: auto;
 }
 .navigationwrapper {
-	background: #333333; 
+	background: #333333;
 }
 .infobox {
 	box-sizing: border-box;
@@ -61,14 +61,14 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: bottom;
-	
+
 	padding: 50px 50px 0px 50px;
 }
 .logo {
 	box-sizing: border-box;
 	height: 25%;
 	max-width: 100%;
-	
+
 }
 .infocontent {
 	box-sizing: border-box;
@@ -81,6 +81,11 @@ body {
 	order: 2;
 	width: 100%;
 	height: auto;
+}
+.budskab {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
 }
 footer {
 	box-sizing: border-box;
@@ -103,11 +108,11 @@ footerleft {
 }
 footermiddle{
 	box-sizing: border-box;
-	width: 33%;	
+	width: 33%;
 }
 footerright {
 	box-sizing: border-box;
-	width: 33%;	
+	width: 33%;
 }
 /* TEAM */
 
@@ -115,11 +120,11 @@ footerright {
 	box-sizing: border-box;
 	max-width: 100%;
 	height: auto;
-	
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	
+
 	background-color: rgba(255, 255, 255, 0.7);
 	}
 .teammember {
@@ -132,7 +137,7 @@ footerright {
 	padding: 0 20px;
 }
 .teaminfo{
-	max-width: 100%;	
+	max-width: 100%;
 	padding: 0 20px;
 }
 
@@ -147,13 +152,13 @@ footerright {
 	padding: 0 20px;
 }
 .eventinfo{
-	max-width: 100%;	
+	max-width: 100%;
 	padding: 0 20px;
 }
 
 /* Index*/
 
-.content { 
+.content {
 	box-sizing: border-box;
 	max-width: 100%;
 	height: 100%;
@@ -163,7 +168,7 @@ footerright {
 }
 
 /* Kontaktformular */
-.contactwrapper { 
+.contactwrapper {
 	box-sizing: border-box;
 	max-width: 100%;
 	height: 100%;
@@ -184,7 +189,7 @@ footerright {
 	height: auto;
 }
 #googlemap {
-	width: 450px; 
+	width: 450px;
 	height: 95.5%;
 }
 .contactform {
@@ -197,10 +202,10 @@ footerright {
 	width: 100%;
 	}
 
-	
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], [type=email], [type=number], select, textarea {
-    padding: 12px; /* Some padding */  
+    padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -424,7 +429,7 @@ input[type=submit]:hover {
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-	
+
 	p {
 
 	}
@@ -445,7 +450,7 @@ input[type=submit]:hover {
 }
 .logo {
 	max-height: 25%;
-	
+
 }
 .infocontent {
 	height: auto;
@@ -458,10 +463,10 @@ footerleft {
 	width: 100%;
 }
 footermiddle{
-	width: 100%;	
+	width: 100%;
 }
 footerright {
-	width: 100%;	
+	width: 100%;
 }
 	.contactleft {
 		max-width: 100%;
@@ -475,7 +480,7 @@ footerright {
 	.contactright {
 		max-width: 100%;
 	}
-	.contactwrapper { 
+	.contactwrapper {
 	flex-direction:column-reverse;
 }
 	.textbox {
@@ -490,16 +495,16 @@ footerright {
 	padding: 0;
 }
 	.eventinfo{
-	max-width: 100%;	
+	max-width: 100%;
 	padding: 0 20px;
 }
 
 #googlemap {
-	width: 100%; 
+	width: 100%;
 	height: 100%;
 }
 	/* Mobil navigation */
-	
+
 	#cssmenu {
     width: 100%;
   }

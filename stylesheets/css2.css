@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navigationwrapper {
-	background: #333333; 
+	background: #333333;
 }
 body {
 	background-image: url(../billeder/baggrundlys.jpg);
@@ -44,7 +44,7 @@ body {
 	background-size: cover;
 	max-height: auto;
 	background-position: bottom;
-	
+
 	padding: 50px 50px 0px 50px;
 }
 .rightwrapper {
@@ -57,7 +57,7 @@ body {
 	box-sizing: border-box;
 	height: 25%;
 	max-width: 100%;
-	
+
 }
 .infocontent {
 	box-sizing: border-box;
@@ -71,7 +71,7 @@ body {
 	display: flex;
 	flex-direction: row;
 }
-.content { 
+.content {
 	box-sizing: border-box;
 	max-width: 100%;
 	background-color: rgba(255,255,255, 0.9);
@@ -278,7 +278,7 @@ footer {
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-	
+
 	p {
 		font-size: none;
 	}
@@ -298,7 +298,7 @@ footer {
 }
 .logo {
 	max-height: 25%;
-	
+
 }
 .infocontent {
 	height: auto;
@@ -307,6 +307,8 @@ footer {
 	height: auto;
 	flex-direction: row;
 }
+
+
 footer {
 	flex-direction: column;
 	width: 95%;
@@ -314,7 +316,7 @@ footer {
 
 
 	/* Mobil navigation */
-	
+
 	#cssmenu {
     width: 100%;
   }
