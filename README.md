@@ -1,2 +1,2 @@
-# gruppe14
-Gruppe 14, 2017 eksamenprojekt.
+# gruppe14-postpitch
+Vores grupp14 projekt, nu med uofficielle opdateringer!
